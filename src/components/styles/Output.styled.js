@@ -7,6 +7,7 @@ export const OutputStyled = styled.div`
   width: 80%;
   margin: 0px;
   padding: 18px;
+  min-height: 67px;
 `
 
 export const OutputGroup = styled.div`

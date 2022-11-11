@@ -38,7 +38,7 @@ export const FormInputStyled = styled.input`
 	::placeholder,
 	::-webkit-input-placeholder {
 		font-style: italic;
-    color: #55565e;
+		color: #55565e;
 	}
 `;
 
@@ -76,16 +76,16 @@ export const SelectStyledLight = styled.select`
 	background-color: #2c2f40;
 	color: #f1f1f3;
 
-  &.placeholder {
-    color: red;
-    font-style: italic;
-  }
+	&.placeholder {
+		color: red;
+		font-style: italic;
+	}
 `;
 
 export const FormTextStyled = styled.p`
 	color: #f1f1f3;
 	padding-left: 9px;
-  margin: 9px 0px;
+	margin: 9px 0px;
 `;
 
 export const FormButtonStyled = styled.button`
@@ -99,22 +99,34 @@ export const FormButtonStyled = styled.button`
 	background-color: #eed2a1;
 	border-radius: 9px;
 	border: 1px solid #9e6845;
-  cursor: pointer;
+	/* transition: ease-in-out 0.1s; */
+	cursor: pointer;
+
+	&:hover {
+		background-color: #ffe0a7;
+		/* margin-top: -1px;
+		margin-left: -1px; */
+	}
+
+	&:active {
+		background-color: #d39e79;
+		margin-top: 2px;
+	}
 `;
 
 export const TextareaStyled = styled.textarea`
-  width: 95%;
-  background-color: #212331;
-  border: 1px solid #02020b;
-  border-radius: 6px;
-  padding: 18px;
-  color: #f0f1f3;
-`
+	width: 95%;
+	background-color: #212331;
+	border: 1px solid #02020b;
+	border-radius: 6px;
+	padding: 18px;
+	color: #f0f1f3;
+`;
 
 export const LinkStyled = styled.a`
-  color: #e9c991;
+	color: #e9c991;
 	font-size: 12px;
 	padding: 9px 18px 9px 0;
 	margin: 0;
-  cursor: pointer;
-`
+	cursor: pointer;
+`;

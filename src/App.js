@@ -34,9 +34,6 @@ function App() {
 	const updateCharacterMP = (e) => {
 		setCharacterMP(e.target.value);
 	};
-	// const updatePassiveAbility = (e) => {
-	// 	setPassiveAbility(e.target.value);
-	// };
   const updatePassiveAbilities = (e) => {
     let selectedPassive = e.target.value;
     if (passiveAbilities.includes(selectedPassive)) {      
