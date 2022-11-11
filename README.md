@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# **Derp-Cues**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_A single page web app_<br><br>
 
-## Available Scripts
+## **Description**
+Derp- Cues is a React web app built to make role play combat and sparring easier for members of The Divine Conclave guild active in The Elder Scrolls Online.
 
-In the project directory, you can run:
+Users can enter values for their character stats and abilities, choose a target and an attack skill, and easily copy a properly formatted line of text to their clipboard which can be pasted into the in-game chat window during RP battle.
 
-### `npm start`
+<img width="1439" alt="Screen Shot 2022-11-10 at 9 04 49 PM" src="https://user-images.githubusercontent.com/51179862/201249384-1bac0944-6697-429c-a2f0-df5c031c4a9c.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Table of Contents**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- <a href='#user-story'>User Story</a>
+- <a href="#installation">Installation</a>
+- <a href="#usage">Usage</a>
+- <a href="#deployed-application">Deployed Application</a>
+- <a href="#contributors">Contributors</a>
+- <a href="#future-work">Future Work</a>
 
-### `npm test`
+## **User Story**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As a player engaged in RP battle
+I want to be able to quickly enter my chracter's stats, skills, and abilities as properly formatted text into the Elder Scrolls Online chat window
+so less time is spent configuring my text entry and I can focus on my strategy and RP.
 
-### `npm run build`
+## **Installation**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone the GitHub repository to your computer
+- In terminal navigate to the cloned directory
+- Type "npm i" in the command line to install dependencies
+- Type "npm start" in the command line to launch the application
+- If a web browser does not automatically open with the app, open a web browser of your choice and navigate to http://localhost:3000/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Tools and Required Packages**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- Styled-Components
+- React-Icons
 
-### `npm run eject`
+## **Usage**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Use the number entry, drop down, text entry fields, and check boxes to build your text string. You can view your text at the bottom of the application.
+- Click the 'Copy to Clipboard' button in the lower right hand corner of the app to copy your text to your computer's clipboard.
+- Paste your text into the chat window in your active Elder Scrolls Online session
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **Deployed Application**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+https://mlmcgeenc.github.io/derp-cues/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## **Contributors**
 
-## Learn More
+Grab a ticket and become this project's first contributor!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Authors**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://github.com/mlmcgeenc" target="_blank">Matt McGee | GitHub Profile</a><br>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## **Future Work**
+- Move current state and event handlers to useContext or Redux for global state management
+- Add the ability for users to modify the drop down lists for Mundus Effect, Attacks, and Holy Items
+- Add the ability for users to modify the Passive Abilities list
+- Automatically calculate attack and defense values from a base stat and user selections
+- Make user changes persistent 
+- Convert app to PWA that can be downloaded locally
