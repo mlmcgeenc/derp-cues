@@ -21,7 +21,7 @@ export const Output = ({
 	characterSP,
 	characterMP,
 }) => {
-	let outputString = `[${attackName}][${attackCost} ${attackCostType}][${attackEffect}][@${targetName}][${attackValue}][${defenseValue}][${passiveAbilities}][${mundusEffect}][${holyItem}]${characterHP}/${characterSP}/${characterMP}`;
+	let outputString = `[${attackName}][${attackCost} ${attackCostType}][${attackEffect}][@${targetName}][+${attackValue}ATK][+${defenseValue}DEF][${passiveAbilities}][${mundusEffect}][${holyItem}]${characterHP}/${characterSP}/${characterMP}`;
 
 	return (
 			<OutputGroup>
