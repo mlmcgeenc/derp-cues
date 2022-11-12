@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/derp-cues/static/css/main.e6c13ad2.css",
-    "main.js": "/derp-cues/static/js/main.275ddee8.js",
+    "main.js": "/derp-cues/static/js/main.9bbc3c08.js",
     "static/js/787.cfe0b983.chunk.js": "/derp-cues/static/js/787.cfe0b983.chunk.js",
     "index.html": "/derp-cues/index.html",
     "main.e6c13ad2.css.map": "/derp-cues/static/css/main.e6c13ad2.css.map",
-    "main.275ddee8.js.map": "/derp-cues/static/js/main.275ddee8.js.map",
+    "main.9bbc3c08.js.map": "/derp-cues/static/js/main.9bbc3c08.js.map",
     "787.cfe0b983.chunk.js.map": "/derp-cues/static/js/787.cfe0b983.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.275ddee8.js"
+    "static/js/main.9bbc3c08.js"
   ]
 }
