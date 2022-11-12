@@ -103,13 +103,13 @@ export const FormButtonStyled = styled.button`
 	cursor: pointer;
 
 	&:hover {
-		background-color: #ffe0a7;
+		background-color: #fffda2;
 		/* margin-top: -1px;
 		margin-left: -1px; */
 	}
 
 	&:active {
-		background-color: #d39e79;
+		background-color: #9b8662;
 		margin-top: 2px;
 	}
 `;
@@ -129,4 +129,8 @@ export const LinkStyled = styled.a`
 	padding: 9px 18px 9px 0;
 	margin: 0;
 	cursor: pointer;
+
+	&:hover {
+		color: #fffda2;
+	}
 `;
