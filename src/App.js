@@ -55,22 +55,22 @@ function App() {
 	const handleAttackChange = (e) => {
 		setAttackName(e.target.value);
 		setAttackCost(
-			attackList.filter((attack) => attack.name === e.target.value)[0].cost
+			attackList.find((attack) => attack.name === e.target.value).cost
 		);
 		setAttackCostType(
-			attackList.filter((attack) => attack.name === e.target.value)[0].costType
+			attackList.find((attack) => attack.name === e.target.value).costType
 		);
 		setAttackEffect(
-			attackList.filter((attack) => attack.name === e.target.value)[0].effect
+			attackList.find((attack) => attack.name === e.target.value).effect
 		);
 	};
 	const handleMundusChange = (e) => {
-    let selectedMundus = mundusList.filter((mundus) => mundus.name === e.target.value )[0]
+    let selectedMundus = mundusList.find((mundus) => mundus.name === e.target.value )
     setMundusEffect(`${selectedMundus.name} ${selectedMundus.description}`);
 	};
 	const handleHolyItemChange = (e) => {
 		setHolyItem(e.target.value);
-    setHolyItemDesc(holyItemList.filter((item) => item.name === e.target.value)[0].description)
+    setHolyItemDesc(holyItemList.find((item) => item.name === e.target.value).description)
 	};
 	const updateTarget = (e) => {
 		setTargetName(e.target.value);
